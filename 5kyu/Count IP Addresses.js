@@ -12,8 +12,6 @@ const ipsBetween = (start, end) => {
 
     if (n1 < n2) difference += countDifference(n1, n2, i);
     else if (n1 > n2) difference -= countDifference(n1, n2, i) * -1;
-
-    console.log(n1, n2);
   }
 
   return difference;
